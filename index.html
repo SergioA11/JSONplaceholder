@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSONPlaceholder - TODOs</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <h1>JSONPlaceholder - TODOs</h1>
+    
+    <section id="getSection">
+        <h2>Obtener TODOs</h2>
+        <button id="fetchTodos">Obtener TODOs</button>
+        <table id="todosTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Título</th>
+                    <th>Completado</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Los TODOs se poblarán aquí -->
+            </tbody>
+        </table>
+    </section>
+    
+    <section id="postSection">
+        <h2>Crear TODO</h2>
+        <input type="text" id="newTodoTitle" placeholder="Título del TODO">
+        <button id="createTodo">Crear TODO</button>
+    </section>
+
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
